@@ -3,7 +3,7 @@ spring:
         name: marktodo
     datasource:
         driverClassName: org.postgresql.Driver
-        url: jdbc:mysql://ec2-79-125-107-77.eu-west-1.compute.amazonaws.com:5432/d8htjafv82ovdm
+        url: jdbc:postgresql://ec2-79-125-107-77.eu-west-1.compute.amazonaws.com:5432/d8htjafv82ovdm
         username: hpvaxwifgnpzwg
         password: 6fdttD4GaTAtNSXSdP09OBLGb7
     mvc:
@@ -12,6 +12,6 @@ spring:
     jpa:
       properties:
           hibernate:
-              dialect: org.hibernate.dialect.MySQL5Dialect
+              dialect: org.hibernate.dialect.PostgreSQLDialect
 server:
     port: 80
