@@ -2,10 +2,10 @@ spring:
     application:
         name: marktodo
     datasource:
-        driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://localhost:3306/mark
-        username: root
-        password: root
+        driverClassName: org.postgresql.Driver
+        url: jdbc:mysql://ec2-79-125-107-77.eu-west-1.compute.amazonaws.com:5432/d8htjafv82ovdm
+        username: hpvaxwifgnpzwg
+        password: 6fdttD4GaTAtNSXSdP09OBLGb7
     mvc:
         favicon:
           enabled: false
